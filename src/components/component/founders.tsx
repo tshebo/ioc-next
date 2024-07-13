@@ -1,4 +1,6 @@
+import React from "react";
 import Image from "next/image";
+
 export function Founders() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32">
@@ -12,7 +14,7 @@ export function Founders() {
         />
         <div className="space-y-4">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            The Founders' Story
+            The Founders&apos; Story
           </h2>
           <p className="text-muted-foreground md:text-xl">
             Randolph Beyers has been serving as a Youth Pastor at the Upper Room
@@ -26,6 +28,5 @@ export function Founders() {
         </div>
       </div>
     </section>
-    
   );
 }

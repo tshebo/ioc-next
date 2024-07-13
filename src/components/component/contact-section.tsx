@@ -13,8 +13,8 @@ export function ContactSection() {
           </h2>
           <p className="text-[#6B7280] md:text-xl">
             Our compassionate team is here to provide the resources and guidance
-            you need on your journey to recovery. Whether you're struggling with
-            addiction or supporting a loved one, we're here to help.
+            you need on your journey to recovery. Whether you&apos;re struggling with
+            addiction or supporting a loved one, we&apos;re here to help.
           </p>
           <div className="flex flex-col gap-2 sm:flex-row">
             <Link

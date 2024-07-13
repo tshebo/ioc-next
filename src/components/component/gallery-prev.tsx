@@ -17,7 +17,7 @@ export function GalleryPrev() {
         <CarouselItem>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="col-span-1 md:col-span-2">
-              <img
+              <Image
                 src="/gallery/ioc (1).webp"
                 width={800}
                 height={450}
@@ -42,7 +42,7 @@ export function GalleryPrev() {
                 width={450}
                 height={800}
                 alt="Empowerment"
-                className="w-full h-64 md:h-80 object-contain rounded-lg rounded"
+                className="w-full h-64 md:h-80 object-contain rounded-lg"
               />
             </div>
             <div className="col-span-1 flex flex-col justify-center gap-4">
@@ -80,7 +80,7 @@ export function GalleryPrev() {
       <div className="text-center py-10">
         <Link href="/Gallery">
           <Button>
-            Gallery <ChevronRight />{" "}
+            Gallery <ChevronRight />
           </Button>
         </Link>
       </div>
