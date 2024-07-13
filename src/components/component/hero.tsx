@@ -8,19 +8,16 @@ import {
 } from "@/components/ui/carousel";
 import Link from "next/link";
 import { Button } from "../ui/button";
-import { EmblaOptionsType } from "embla-carousel-react";
+// import { EmblaOptionsType } from "embla-carousel-react";
 
-type CarouselOptions = EmblaOptionsType;
+// type CarouselOptions = EmblaOptionsType;
 
 export function Hero() {
-  const carouselOptions: CarouselOptions = { loop: true };
+  // const carouselOptions: CarouselOptions = { loop: true };
 
   return (
     <section className="w-full">
-      <Carousel
-        className="w-full max-h-[80vh] overflow-hidden relative text-center"
-        opts={carouselOptions}
-      >
+      <Carousel className="w-full max-h-[80vh] overflow-hidden relative text-center">
         <CarouselContent>
           <CarouselItem>
             <div
