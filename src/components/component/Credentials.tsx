@@ -21,7 +21,7 @@ export function Credentials() {
               <div>
                 <h3 className="text-lg font-medium"> PBO Approved</h3>
                 <p className="text-muted-foreground">PBO NUmber</p>
-                <div className="font-extrabold text-lg py-5 ">12345345</div>
+                <div className="font-extrabold text-lg py-5 ">930076307</div>
               </div>
             </div>
           </div>
