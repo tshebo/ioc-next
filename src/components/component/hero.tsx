@@ -22,7 +22,7 @@ export function Hero() {
           <CarouselItem>
             <div
               className="w-full h-[80vh] bg-cover bg-center"
-              style={{ backgroundImage: "url('/Image of Christ/ioc (1).JPG')" }}
+              style={{ backgroundImage: "url('/gallery/ioc (1).webp')" }}
             >
               <div className="flex flex-col justify-center items-center h-full bg-black bg-opacity-50 text-white p-4">
                 <h2 className="text-4xl font-bold mb-4">

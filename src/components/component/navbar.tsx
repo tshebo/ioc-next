@@ -15,7 +15,7 @@ export function Navbar() {
           prefetch={false}
         >
           <Image
-            src="/Image of Christ/logo.png"
+            src="/Image of Christ/logo.webp"
             alt="Logo"
             width={50}
             height={50}
