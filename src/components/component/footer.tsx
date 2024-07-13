@@ -17,7 +17,7 @@ export function Footer() {
         <div className="space-y-4 space-x-20">
           <div className="flex items-center gap-2">
             <Image
-              src="/Image Of Christ/name.png"
+              src="/Image Of Christ/name1.webp"
               width={300}
               height={150}
               alt="ioc-name"
