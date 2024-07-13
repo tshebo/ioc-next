@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import Image from "next/image";
+
 export function AboutPage() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
@@ -44,7 +45,7 @@ export function AboutPage() {
                 of Influence
               </h2>
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                We believe that while addiction may alter a person's character,
+                We believe that while addiction may alter a person&apos;s character,
                 it never diminishes their inherent value.
               </p>
             </div>
@@ -98,7 +99,7 @@ export function AboutPage() {
   );
 }
 
-function CheckIcon(props:any) {
+function CheckIcon(props: any) {
   return (
     <svg
       {...props}
@@ -116,4 +117,3 @@ function CheckIcon(props:any) {
     </svg>
   );
 }
- 
