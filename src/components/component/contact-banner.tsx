@@ -24,7 +24,7 @@ export function ContactBanner() {
   );
 }
 
-function MailIcon(props) {
+function MailIcon(props:any) {
   return (
     <svg
       {...props}
@@ -44,7 +44,7 @@ function MailIcon(props) {
   );
 }
 
-function PhoneIcon(props) {
+function PhoneIcon(props:any) {
   return (
     <svg
       {...props}

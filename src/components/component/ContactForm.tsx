@@ -1,7 +1,7 @@
 "use client";
- 
+
 import React, { useRef, useState } from "react";
-import { useForm } from "react-hook-form";
+import { useForm, SubmitHandler, FieldValues } from "react-hook-form";
 import emailjs from "emailjs-com";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -10,41 +10,51 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { AlertSuccessful } from "@/components/component/alert";
 
+interface FormData {
+  name: string;
+  email: string;
+  phone: string;
+  message: string;
+}
+
 export default function ContactForm() {
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
   const {
     register,
     handleSubmit,
     formState: { errors },
     reset,
-  } = useForm();
+  } = useForm<FormData>();
   const [loading, setLoading] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
 
-  const onSubmit = async (data) => {
+  const onSubmit: SubmitHandler<FormData> = async (data) => {
     setLoading(true);
 
     try {
-      // Send Email
-      await emailjs.sendForm(
-        "service_e77viqg",
-        "template_vy09n8k",
-        form.current,
-        "G8N3YyLXXwsMoVWN5"
-      );
-      setShowAlert(true);
-      reset();
+      if (form.current) {
+        // Send Email
+        await emailjs.sendForm(
+          "service_e77viqg",
+          "template_vy09n8k",
+          form.current,
+          "G8N3YyLXXwsMoVWN5"
+        );
+        setShowAlert(true);
+        reset();
 
-      // Hide the alert after 2 seconds
-      setTimeout(() => {
-        setShowAlert(false);
-      }, 2000);
+        // Hide the alert after 2 seconds
+        setTimeout(() => {
+          setShowAlert(false);
+        }, 2000);
+      }
     } catch (error) {
       alert("Failed to send the message, please try again.");
     } finally {
       setLoading(false);
     }
   };
+
   return (
     <div>
       <div className="rounded-lg bg-white p-6 shadow-lg md:p-8">

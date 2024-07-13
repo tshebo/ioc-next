@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Carousel,
   CarouselContent,
@@ -7,7 +8,7 @@ import {
 } from "@/components/ui/carousel";
 import Link from "next/link";
 import { Button } from "../ui/button";
-import useEmblaCarousel, { EmblaOptionsType } from "embla-carousel-react";
+import { EmblaOptionsType } from "embla-carousel-react";
 
 type CarouselOptions = EmblaOptionsType;
 
@@ -79,17 +80,17 @@ export function Hero() {
             </div>
           </CarouselItem>
         </CarouselContent>
-        <div className="absolute bottom-4 left-1/2 -translate-x-1/2">
-          <div />
-          <div />
-          <div />
-          <div />
-          <div />
+        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+          <div className="w-2 h-2 rounded-full bg-white" />
+          <div className="w-2 h-2 rounded-full bg-white" />
+          <div className="w-2 h-2 rounded-full bg-white" />
+          <div className="w-2 h-2 rounded-full bg-white" />
+          <div className="w-2 h-2 rounded-full bg-white" />
         </div>
-        <CarouselPrevious className="absolute top-1/2 left-4 -translate-y-1/2">
+        <CarouselPrevious className="absolute top-1/2 left-4 transform -translate-y-1/2">
           <ChevronLeftIcon className="w-8 h-8" />
         </CarouselPrevious>
-        <CarouselNext className="absolute top-1/2 right-4 -translate-y-1/2">
+        <CarouselNext className="absolute top-1/2 right-4 transform -translate-y-1/2">
           <ChevronRightIcon className="w-8 h-8" />
         </CarouselNext>
       </Carousel>
@@ -97,7 +98,9 @@ export function Hero() {
   );
 }
 
-function ChevronLeftIcon(props) {
+interface IconProps extends React.SVGProps<SVGSVGElement> {}
+
+function ChevronLeftIcon(props: IconProps) {
   return (
     <svg
       {...props}
@@ -116,7 +119,7 @@ function ChevronLeftIcon(props) {
   );
 }
 
-function ChevronRightIcon(props) {
+function ChevronRightIcon(props: IconProps) {
   return (
     <svg
       {...props}
@@ -135,7 +138,7 @@ function ChevronRightIcon(props) {
   );
 }
 
-function XIcon(props) {
+function XIcon(props: IconProps) {
   return (
     <svg
       {...props}
