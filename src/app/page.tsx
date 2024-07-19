@@ -8,12 +8,14 @@ import { GalleryPrev } from "@/components/component/gallery-prev";
 import { Hero } from "@/components/component/hero";
 import { Navbar } from "@/components/component/navbar";
 import { ServicesSection } from "@/components/component/ServicesSection";
+import FloatingVideo from "@/components/FloatingVideo";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="">
       <Hero />
+      <FloatingVideo/>
       <ContactBanner />
       <ServicesSection />
       <AboutSection />

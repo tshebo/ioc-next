@@ -1,4 +1,11 @@
-import { RiMusicLine, RiTeamLine, RiVideoLine } from "@remixicon/react";
+import {
+  RiBriefcase2Line,
+  RiInformationLine,
+  RiMusicLine,
+  RiPresentationLine,
+  RiTeamLine,
+  RiVideoLine,
+} from "@remixicon/react";
 import { Handshake, UserRound, UserRoundCheck, UsersRound } from "lucide-react";
 import Link from "next/link";
 
@@ -10,9 +17,9 @@ export function ServicesSection() {
           What we do
         </div>
         <div className="text-center text-slate-500 italic my-5 md:px-32">
-          &quot;For God knew his people in advance, and he chose them to become
-          like his Son, so that his Son would be the firstborn among many
-          brothers and sisters.&quot; - Romans 8:29
+          &quot;For whom He foreknew, He also predestined to be conformed to the
+          image of His Son, that He might be the firstborn among many
+          brethren.&quot; - Romans 8:29 
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div className="relative overflow-hidden rounded-lg bg-background shadow-lg transition-transform duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2">
@@ -58,7 +65,9 @@ export function ServicesSection() {
               <div className="bg-primary rounded-md p-3 text-primary-foreground">
                 <RiTeamLine className="h-8 w-10" />
               </div>
-              <h3 className="text-xl font-semibold">Family Support</h3>
+              <h3 className="text-xl font-semibold">
+                Family Support & Restoration
+              </h3>
               <p className="text-muted-foreground">
                 &quot;We provide support to families to help them understand and
                 deal with the challenges of substance abuse.&quot;
@@ -68,12 +77,12 @@ export function ServicesSection() {
           <div className="relative overflow-hidden rounded-lg bg-background shadow-lg transition-transform duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2">
             <div className="flex h-full flex-col items-center justify-center gap-4 p-6 text-center">
               <div className="bg-primary rounded-md p-3 text-primary-foreground">
-                <RiVideoLine className="h-8 w-8" />
+                <RiPresentationLine className="h-8 w-8" />
               </div>
-              <h3 className="text-xl font-semibold">Online Training</h3>
+              <h3 className="text-xl font-semibold">Skills Development</h3>
               <p className="text-muted-foreground">
-                &quot;We offer online training sessions to help individuals gain
-                new skills and improve their lives.&quot;
+                &quot;We offer skills development programmes to help individuals
+                gain new skills and improve their lives.&quot;
               </p>
             </div>
           </div>
@@ -88,6 +97,37 @@ export function ServicesSection() {
               <p className="text-muted-foreground">
                 &quot;We provide lessons in playing musical instruments as part
                 of our effort to equip individuals with valuable skills.&quot;
+              </p>
+            </div>
+          </div>
+          <div className="relative overflow-hidden rounded-lg bg-background shadow-lg transition-transform duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2">
+            <div className="flex h-full flex-col items-center justify-center gap-4 p-6 text-center">
+              <div className="bg-primary rounded-md p-3 text-primary-foreground">
+                <RiBriefcase2Line className="h-8 w-8" />
+              </div>
+              <h3 className="text-xl font-semibold">
+                Business Development Support
+              </h3>
+              <p className="text-muted-foreground">
+                &quot;We provide guidance and support to help individuals start
+                and grow their own businesses, offering resources, mentorship,
+                and training to turn their entrepreneurial ideas into successful
+                ventures.&quot;
+              </p>
+            </div>
+          </div>
+          <div className="relative overflow-hidden rounded-lg bg-background shadow-lg transition-transform duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2">
+            <div className="flex h-full flex-col items-center justify-center gap-4 p-6 text-center">
+              <div className="bg-primary rounded-md p-3 text-primary-foreground">
+                <RiInformationLine className="h-8 w-8" />
+              </div>
+              <h3 className="text-xl font-semibold">
+                Information and Referral Services
+              </h3>
+              <p className="text-muted-foreground">
+                &quot;We provide information and referrals to appropriate
+                services and resources, helping individuals navigate their
+                journey to recovery and support.&quot;
               </p>
             </div>
           </div>

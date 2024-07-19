@@ -8,12 +8,9 @@ import {
 } from "@/components/ui/carousel";
 import Link from "next/link";
 import { Button } from "../ui/button";
-// import { EmblaOptionsType } from "embla-carousel-react";
 
-// type CarouselOptions = EmblaOptionsType;
 
 export function Hero() {
-  // const carouselOptions: CarouselOptions = { loop: true };
 
   return (
     <section className="w-full">
@@ -22,15 +19,11 @@ export function Hero() {
           <CarouselItem>
             <div
               className="w-full h-[80vh] bg-cover bg-center"
-              style={{ backgroundImage: "url('/gallery/ioc (1).webp')" }}
+              style={{ backgroundImage: "url('/ioc-home.webp')" }}
             >
               <div className="flex flex-col justify-center items-center h-full bg-black bg-opacity-50 text-white p-4">
-                <h2 className="text-4xl font-bold mb-4">
-                  Restoring Lives with Love
-                </h2>
-                <p className="text-lg mb-4">
-                  Discover our mission and the impact we make in the community.
-                </p>
+                <h2 className="text-4xl font-bold mb-4">Mighty Men</h2>
+                <p className="text-lg mb-4">Raising Up Mighty Men of David</p>
                 <Link href="/about">
                   <Button>Learn More</Button>
                 </Link>
@@ -41,17 +34,12 @@ export function Hero() {
             <div
               className="w-full h-[80vh] bg-cover bg-center"
               style={{
-                backgroundImage:
-                  "url('https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/450051167_803158851942882_8309117815763672465_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=1UyGOl92yvUQ7kNvgHM-OLl&_nc_ht=scontent-jnb2-1.xx&oh=00_AYAlINSayCZAS0QgoUhdRhI9nM1G70oIXKUMmbyfMZL8Hw&oe=669337D8')",
+                backgroundImage: "url('/ioc-home2.webp')",
               }}
             >
               <div className="flex flex-col justify-center items-center h-full bg-black bg-opacity-50 text-white p-4">
-                <h2 className="text-4xl font-bold mb-4">
-                  Transforming Futures
-                </h2>
-                <p className="text-lg mb-4">
-                  Join us in our efforts to bring hope and healing.
-                </p>
+                <h2 className="text-4xl font-bold mb-4">Preachers</h2>
+                <p className="text-lg mb-4">Raising Up Preachers</p>
                 <Link href="/Contact">
                   <Button>Reach Out</Button>
                 </Link>
@@ -61,15 +49,11 @@ export function Hero() {
           <CarouselItem>
             <div
               className="w-full h-[80vh] bg-cover bg-center"
-              style={{ backgroundImage: "url('/Image of Christ/pic5.jpg')" }}
+              style={{ backgroundImage: "url('/ioc-home3.webp')" }}
             >
               <div className="flex flex-col justify-center items-center h-full bg-black bg-opacity-50 text-white p-4">
-                <h2 className="text-4xl font-bold mb-4">
-                  Empowering the Youth
-                </h2>
-                <p className="text-lg mb-4">
-                  See the stories of transformation and growth.
-                </p>
+                <h2 className="text-4xl font-bold mb-4">Nation Shakers</h2>
+                <p className="text-lg mb-4">Raising Up Nation Shakers</p>
                 <Link href="/Gallery">
                   <Button>Gallery</Button>
                 </Link>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function Founders() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32">
+    <section className="w-full py-6 md:py-12 lg:py-16">
       <div className="container grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <Image
           src="/Image of Christ/founders.jpg"

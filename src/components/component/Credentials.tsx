@@ -1,7 +1,6 @@
- 
 export function Credentials() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+    <section className="w-full py-6 md:py-12 lg:py-16 bg-muted">
       <div className="container grid max-w-4xl items-center justify-center gap-8 px-1 md:px-6 ">
         <div className="space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -34,8 +33,10 @@ export function Credentials() {
                 <h3 className="text-lg font-medium">Registered NPO</h3>
                 <p className="text-muted-foreground">
                   Our team is registered to practice.
-               
-                </p>   <div className="font-extrabold  text-lg text-black">250-556 NPO</div>
+                </p>{" "}
+                <div className="font-extrabold  text-lg text-black">
+                  250-556 NPO
+                </div>
               </div>
             </div>
           </div>
@@ -46,8 +47,12 @@ export function Credentials() {
               </div>
               <div>
                 <h3 className="text-lg font-medium">Experience</h3>
-                <p className="text-muted-foreground">We have been changing lives for over a decade</p>
-                <div className="font-extrabold  text-lg text-center">10+ years</div>
+                <p className="text-muted-foreground">
+                  We have been changing lives since 2020
+                </p>
+                <div className="font-extrabold  text-lg text-center">
+                  4+ years
+                </div>
               </div>
             </div>
           </div>
@@ -57,7 +62,7 @@ export function Credentials() {
   );
 }
 
-function BadgeIcon(props:any) {
+function BadgeIcon(props: any) {
   return (
     <svg
       {...props}
@@ -76,7 +81,7 @@ function BadgeIcon(props:any) {
   );
 }
 
-function CopyrightIcon(props:any) {
+function CopyrightIcon(props: any) {
   return (
     <svg
       {...props}
@@ -96,7 +101,7 @@ function CopyrightIcon(props:any) {
   );
 }
 
-function PlayIcon(props:any) {
+function PlayIcon(props: any) {
   return (
     <svg
       {...props}
@@ -114,4 +119,3 @@ function PlayIcon(props:any) {
     </svg>
   );
 }
- 

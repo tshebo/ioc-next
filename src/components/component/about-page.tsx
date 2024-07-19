@@ -5,7 +5,7 @@ import Image from "next/image";
 export function AboutPage() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+      <section className="w-full py-6 md:py-12 lg:py-16 bg-muted">
         <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
           <div className="space-y-4">
             <h1 className="text-4xl font-bold tracking-tighter md:text-5xl/tight">
@@ -33,7 +33,7 @@ export function AboutPage() {
           </div>
         </div>
       </section>
-      <section className="w-full py-12 md:py-24 lg:py-32">
+      <section className="w-full py-6 md:py-12 lg:py-16">
         <div className="container px-4 md:px-6">
           <div className="grid gap-10 sm:px-10 md:gap-16 md:grid-cols-2">
             <div className="space-y-4">
