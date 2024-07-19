@@ -12,7 +12,7 @@ import Link from "next/link";
 
 export function GalleryPrev() {
   return (
-    <Carousel className="w-11/12 p-10 container">
+    <Carousel className="w-11/12 p-10 sm:container">
       <CarouselContent>
         <CarouselItem>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
