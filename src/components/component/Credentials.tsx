@@ -12,15 +12,20 @@ export function Credentials() {
           </p>
         </div>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 text-center">
+           
           <div className="rounded-lg border bg-background p-6 shadow-sm">
             <div className="flex items-center gap-4">
               <div className="bg-primary rounded-md p-3 text-primary-foreground">
                 <BadgeIcon className="h-6 w-6" />
               </div>
               <div>
-                <h3 className="text-lg font-medium"> PBO Approved</h3>
-                <p className="text-muted-foreground">PBO NUmber</p>
-                <div className="font-extrabold text-lg py-5 ">930076307</div>
+                <h3 className="text-lg font-medium">PBO Approved</h3>
+                <p className="text-muted-foreground">
+               IOC recovery is approved for PBO Number:
+                </p>{" "}
+                <div className="font-extrabold  text-lg text-black">
+                930076307
+                </div>
               </div>
             </div>
           </div>
