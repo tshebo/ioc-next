@@ -40,7 +40,6 @@ const LightboxGallery = () => {
     "/gallery/ioc (34).webp",
     "/gallery/ioc (35).webp",
     "/gallery/ioc (36).webp",
-    "/gallery/ioc (37).webp",
     "/gallery/ioc (38).webp",
     "/gallery/ioc (39).webp",
     "/gallery/ioc (40).webp",
