@@ -16,12 +16,12 @@ export function Footer() {
       <div className="container grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
         <div className="space-y-4 space-x-20">
           <div className="flex items-center gap-2">
-            <img
+            {/* <img
               src="/Image Of Christ/name1.webp"
               width={300}
               height={150}
               alt="ioc-name"
-            />
+            /> */}
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="inline-block h-6 w-6" />

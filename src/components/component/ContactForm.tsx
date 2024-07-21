@@ -3,7 +3,6 @@ import React, { useRef, useState } from "react";
 import { useForm, SubmitHandler, FieldValues } from "react-hook-form";
 import emailjs from "emailjs-com";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
