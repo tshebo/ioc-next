@@ -7,8 +7,7 @@ export function Credentials() {
             Our Credentials
           </h2>
           <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Established in 2010, our team of experts are licensed and certified
-            to provide the highest quality of service.
+           
           </p>
         </div>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 text-center">
