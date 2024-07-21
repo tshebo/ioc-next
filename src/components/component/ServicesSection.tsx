@@ -17,9 +17,9 @@ export function ServicesSection() {
           What we do
         </div>
         <div className="text-center text-slate-500 italic my-5 md:px-32">
-          &quot;For whom He foreknew, He also predestined to be conformed to the
-          image of His Son, that He might be the firstborn among many
-          brethren.&quot; - Romans 8:29 
+          &quot;We reach out to the rejected and hurting, who have been
+          struggling with substance abuse and have been
+          written off by society.&quot;
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <div className="relative overflow-hidden rounded-lg bg-background shadow-lg transition-transform duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2">
