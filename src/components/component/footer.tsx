@@ -120,7 +120,7 @@ export function Footer() {
               </Link>
               {/* Removed extra </Link> tag that was here */}
               <Link
-                href="https://www.tiktok.com/@imageofchrist_id=100067463223702" // Ensure this TikTok URL is correct
+                href="https://www.tiktok.com/@imageofchrist_?_t=ZM-8wM7t2AwjlW&_r=1" 
                 target="_blank"
                 className="text-muted-foreground hover:text-foreground"
                 prefetch={false}
