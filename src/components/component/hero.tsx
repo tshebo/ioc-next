@@ -24,7 +24,7 @@ export function Hero() {
               <div className="flex flex-col justify-center items-center h-full bg-black bg-opacity-50 text-white p-4">
                 <h2 className="text-4xl font-bold mb-4">Mighty Men</h2>
                 <p className="text-lg mb-4">Raising Up Mighty Men of David</p>
-                <Link href="/about">
+                <Link href="/About">
                   <Button>Learn More</Button>
                 </Link>
               </div>
