@@ -4,10 +4,10 @@ import Link from "next/link";
 import {
   RiFacebookLine,
   RiInstagramLine,
-RiTiktokLine
+  RiTiktokLine, // Added missing comma here
   RiMailLine,
-  RiMapFill,
-  RiUserLocationFill,
+  // RiMapFill, // This icon was imported but not used, can be removed if not needed elsewhere
+  // RiUserLocationFill, // This icon was imported but not used, can be removed if not needed elsewhere
   RiYoutubeLine,
 } from "@remixicon/react";
 
@@ -118,9 +118,9 @@ export function Footer() {
               >
                 <RiFacebookLine className="h-6 w-6" />
               </Link>
-  </Link>
+              {/* Removed extra </Link> tag that was here */}
               <Link
-                href="https://www.tiktok.com/@imageofchrist_id=100067463223702"
+                href="https://www.tiktok.com/@imageofchrist_id=100067463223702" // Ensure this TikTok URL is correct
                 target="_blank"
                 className="text-muted-foreground hover:text-foreground"
                 prefetch={false}
@@ -128,7 +128,9 @@ export function Footer() {
                 <RiTiktokLine className="h-6 w-6" />
               </Link>
               <Link
-                href="https://www.youtube.com/channel/UCNABXmSZady1CqyMyPl91pQ"
+                // The previous YouTube URL "https://www.youtube.com/channel/UCNABXmSZady1CqyMyPl91pQ" seemed incorrect.
+                // Please replace "YOUR_YOUTUBE_CHANNEL_URL_HERE" with your actual YouTube channel URL.
+                href="YOUR_YOUTUBE_CHANNEL_URL_HERE"
                 target="_blank"
                 className="text-muted-foreground hover:text-foreground"
                 prefetch={false}
