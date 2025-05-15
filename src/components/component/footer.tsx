@@ -4,6 +4,7 @@ import Link from "next/link";
 import {
   RiFacebookLine,
   RiInstagramLine,
+RiTiktokLine
   RiMailLine,
   RiMapFill,
   RiUserLocationFill,
@@ -117,6 +118,15 @@ export function Footer() {
               >
                 <RiFacebookLine className="h-6 w-6" />
               </Link>
+  </Link>
+              <Link
+                href="https://www.tiktok.com/@imageofchrist_id=100067463223702"
+                target="_blank"
+                className="text-muted-foreground hover:text-foreground"
+                prefetch={false}
+              >
+                <RiTiktokLine className="h-6 w-6" />
+              </Link>
               <Link
                 href="https://www.youtube.com/channel/UCNABXmSZady1CqyMyPl91pQ"
                 target="_blank"
@@ -126,7 +136,7 @@ export function Footer() {
                 <RiYoutubeLine className="h-6 w-6" />
               </Link>
               <Link
-                href="https://www.instagram.com/imageofchristrecoverycentre?igsh=MXVhdmRuZ3Fya3U0Mw=="
+                href="https://www.instagram.com/imageofchristrecoverycentre_?igsh=ZnRhNDBpeHg1ZDdo&utm_source=qrigsh=MXVhdmRuZ3Fya3U0Mw=="
                 target="_blank"
                 className="text-muted-foreground hover:text-foreground"
                 prefetch={false}
