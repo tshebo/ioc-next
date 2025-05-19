@@ -19,6 +19,20 @@ export function Hero() {
           <CarouselItem>
             <div
               className="w-full h-[80vh] bg-cover bg-center"
+              style={{ backgroundImage: "url('/ioc-home3.webp')" }}
+            >
+              <div className="flex flex-col justify-center items-center h-full bg-black bg-opacity-50 text-white p-4">
+                <h2 className="text-4xl font-bold mb-4">Nation Shakers</h2>
+                <p className="text-lg mb-4">Raising Up Nation Shakers</p>
+                <Link href="/Gallery">
+                  <Button>Gallery</Button>
+                </Link>
+              </div>
+            </div>
+          </CarouselItem>
+          <CarouselItem>
+            <div
+              className="w-full h-[80vh] bg-cover bg-center"
               style={{ backgroundImage: "url('/ioc-home.webp')" }}
             >
               <div className="flex flex-col justify-center items-center h-full bg-black bg-opacity-50 text-white p-4">
@@ -42,20 +56,6 @@ export function Hero() {
                 <p className="text-lg mb-4">Raising Up Preachers</p>
                 <Link href="/Contact">
                   <Button>Reach Out</Button>
-                </Link>
-              </div>
-            </div>
-          </CarouselItem>
-          <CarouselItem>
-            <div
-              className="w-full h-[80vh] bg-cover bg-center"
-              style={{ backgroundImage: "url('/ioc-home3.webp')" }}
-            >
-              <div className="flex flex-col justify-center items-center h-full bg-black bg-opacity-50 text-white p-4">
-                <h2 className="text-4xl font-bold mb-4">Nation Shakers</h2>
-                <p className="text-lg mb-4">Raising Up Nation Shakers</p>
-                <Link href="/Gallery">
-                  <Button>Gallery</Button>
                 </Link>
               </div>
             </div>
