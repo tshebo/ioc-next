@@ -23,7 +23,7 @@
     "embla-carousel-react": "^8.1.6",
     "lightbox.js-react": "^1.0.9",
     "lucide-react": "^0.408.0",
-    "next": "14.2.5",
+    "next": "14.2.35",
     "nodemailer": "^6.9.14",
     "react": "^18",
     "react-dom": "^18",
