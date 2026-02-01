@@ -22,38 +22,38 @@ export function Navbar() {
             className="h-15 w-15"
           />
         </Link>
-        <nav className="hidden items-center gap-6 md:flex">
+        <nav className="hidden items-center gap-8 md:flex">
           <Link
             href="/"
-            className="text-muted-foreground hover:text-foreground"
+            className="text-base font-semibold text-muted-foreground hover:text-primary transition-colors"
             prefetch={false}
           >
             Home
           </Link>
           <Link
             href="/About"
-            className="text-muted-foreground hover:text-foreground"
+            className="text-base font-semibold text-muted-foreground hover:text-primary transition-colors"
             prefetch={false}
           >
             About
           </Link>
           <Link
             href="/Services"
-            className="text-muted-foreground hover:text-foreground"
+            className="text-base font-semibold text-muted-foreground hover:text-primary transition-colors"
             prefetch={false}
           >
             Services
           </Link>
           <Link
             href="/Gallery"
-            className="text-muted-foreground hover:text-foreground"
+            className="text-base font-semibold text-muted-foreground hover:text-primary transition-colors"
             prefetch={false}
           >
             Gallery
           </Link>
           <Link
             href="/Contact"
-            className="text-muted-foreground hover:text-foreground"
+            className="text-base font-semibold text-muted-foreground hover:text-primary transition-colors"
             prefetch={false}
           >
             Contact
@@ -88,35 +88,35 @@ export function Navbar() {
             <nav className="grid gap-4">
               <Link
                 href="/"
-                className="text-muted-foreground hover:text-foreground"
+                className="text-lg font-semibold text-muted-foreground hover:text-primary transition-colors"
                 prefetch={false}
               >
                 Home
               </Link>
               <Link
                 href="/About"
-                className="text-muted-foreground hover:text-foreground"
+                className="text-lg font-semibold text-muted-foreground hover:text-primary transition-colors"
                 prefetch={false}
               >
                 About
               </Link>
               <Link
                 href="/Services"
-                className="text-muted-foreground hover:text-foreground"
+                className="text-lg font-semibold text-muted-foreground hover:text-primary transition-colors"
                 prefetch={false}
               >
                 Services
               </Link>
               <Link
                 href="/Gallery"
-                className="text-muted-foreground hover:text-foreground"
+                className="text-lg font-semibold text-muted-foreground hover:text-primary transition-colors"
                 prefetch={false}
               >
                 Gallery
               </Link>
               <Link
                 href="/Contact"
-                className="text-muted-foreground hover:text-foreground"
+                className="text-lg font-semibold text-muted-foreground hover:text-primary transition-colors"
                 prefetch={false}
               >
                 Contact
