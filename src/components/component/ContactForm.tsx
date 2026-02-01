@@ -55,8 +55,8 @@ export default function ContactForm() {
 
   return (
     <div>
-      <div className="rounded-lg bg-white dark:bg-[#1f2937] p-6 shadow-lg md:p-8">
-        <h3 className="mb-4 text-2xl font-bold text-[#1F2937] dark:text-white">Contact Us</h3>
+      <div className="rounded-lg bg-white dark:bg-muted p-6 shadow-lg md:p-8">
+        <h3 className="mb-4 text-2xl font-bold text-[#1F2937] dark:text-foreground">Contact Us</h3>
         <form
           ref={form}
           onSubmit={handleSubmit(onSubmit)}
@@ -64,7 +64,7 @@ export default function ContactForm() {
         >
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div>
-              <Label htmlFor="name">Name</Label>
+              <Label htmlFor="name" className="dark:text-foreground">Name</Label>
               <Input
                 id="name"
                 type="text"
@@ -76,7 +76,7 @@ export default function ContactForm() {
               )}
             </div>
             <div>
-              <Label htmlFor="email">Email</Label>
+              <Label htmlFor="email" className="dark:text-foreground">Email</Label>
               <Input
                 id="email"
                 type="email"
@@ -89,7 +89,7 @@ export default function ContactForm() {
             </div>
           </div>
           <div>
-            <Label htmlFor="phone">Phone</Label>
+            <Label htmlFor="phone" className="dark:text-foreground">Phone</Label>
             <Input
               id="phone"
               type="tel"
@@ -101,7 +101,7 @@ export default function ContactForm() {
             )}
           </div>
           <div>
-            <Label htmlFor="message">Message</Label>
+            <Label htmlFor="message" className="dark:text-foreground">Message</Label>
             <Textarea
               id="message"
               placeholder="Enter your message"
