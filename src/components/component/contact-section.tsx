@@ -5,13 +5,13 @@ import Link from "next/link";
 
 export function ContactSection() {
   return (
-    <section className="w-full bg-gradient-to-r from-[#F0F4FF] to-[#F7F4FF] py-12 md:py-24 lg:py-32">
+    <section className="w-full bg-gradient-to-r from-[#F0F4FF] to-[#F7F4FF] dark:from-[#1a1a2e] dark:to-[#16213e] py-12 md:py-24 lg:py-32">
       <div className="container grid items-center gap-8 px-4 md:px-6 lg:grid-cols-2 lg:gap-16">
         <div className="space-y-4">
-          <h2 className="text-3xl font-bold tracking-tighter text-[#1F2937] md:text-4xl lg:text-5xl">
+          <h2 className="text-3xl font-bold tracking-tighter text-[#1F2937] dark:text-white md:text-4xl lg:text-5xl">
             Reach Out for Support
           </h2>
-          <p className="text-[#6B7280] md:text-xl">
+          <p className="text-[#6B7280] dark:text-gray-300 md:text-xl">
             Our compassionate team is here to provide the resources and guidance
             you need on your journey to recovery. Whether you&apos;re struggling with
             addiction or supporting a loved one, we&apos;re here to help.

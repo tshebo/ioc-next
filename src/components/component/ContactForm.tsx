@@ -55,8 +55,8 @@ export default function ContactForm() {
 
   return (
     <div>
-      <div className="rounded-lg bg-white p-6 shadow-lg md:p-8">
-        <h3 className="mb-4 text-2xl font-bold text-[#1F2937]">Contact Us</h3>
+      <div className="rounded-lg bg-white dark:bg-[#1f2937] p-6 shadow-lg md:p-8">
+        <h3 className="mb-4 text-2xl font-bold text-[#1F2937] dark:text-white">Contact Us</h3>
         <form
           ref={form}
           onSubmit={handleSubmit(onSubmit)}
